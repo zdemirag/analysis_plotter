@@ -23,7 +23,7 @@ blind = False
 vbf = False
 vtag = False
 
-folder = '/afs/cern.ch/user/z/zdemirag/www/vbf_run2/'
+folder = './plots'
 
 binLowE = [200, 500, 800, 1200, 1600, 2000, 2750, 3500]
 nb = len(binLowE)-1
