@@ -36,13 +36,6 @@ scale_map = get_data_from_csv(csv_file)
 
 dataDir = "/afs/cern.ch/work/a/aakpinar/public/forZeynep/VBF_trees/"
 
-physics_processes = {}
-for process, ht_bins in process_ht_bins.items():
-    for ht_bin in ht_bins:
-        process_tag = '{}_HT{}'.format(process, ht_bin)
-        # Set relevant information for this particular process
-        physics_processes[process_tag] = {'datacard' : process}
-
 physics_processes = {
         # QCD Znunu processes
         'Zvv_HT100'         : { 'label'   : 'QCD Z#rightarrow#nu#nu', 
