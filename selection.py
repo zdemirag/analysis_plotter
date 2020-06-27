@@ -15,9 +15,7 @@ def build_selection(selection):
 
     selections = ['signal','Zmm','Wmn','gjets','Zee','Wen']
     
-    snippets = {        
-        'barrel' :['fabs(leadak4_eta)<2.4','signal'],        
-        }
+    snippets = {}
     
     selectionString = ''
     for cut in snippets:
