@@ -204,9 +204,9 @@ arguments['leadak4_phi']   = ['leadak4_phi','leadak4_phi',25,-5,5,'Events','Lead
 arguments['leadak4_eta']   = ['leadak4_eta','leadak4_eta',25,-5,5,'Events','Leading Jet #eta',True]
 
 # Trailing jet
-arguments['trailak4_pt']   = ['trailak4_pt','trailak4_pt',49,40,1000,'Events/GeV','Leading Jet P_{T} [GeV]',True]
-arguments['trailak4_phi']  = ['trailak4_phi','trailak4_phi',25,-5,5,'Events','Leading Jet #phi',False]
-arguments['trailak4_eta']  = ['trailak4_eta','trailak4_eta',25,-5,5,'Events','Leading Jet #eta',True]
+arguments['trailak4_pt']   = ['trailak4_pt','trailak4_pt',49,40,1000,'Events/GeV','Trailing Jet P_{T} [GeV]',True]
+arguments['trailak4_phi']  = ['trailak4_phi','trailak4_phi',25,-5,5,'Events','Trailing Jet #phi',False]
+arguments['trailak4_eta']  = ['trailak4_eta','trailak4_eta',25,-5,5,'Events','Trailing Jet #eta',True]
 
 # arguments['npv']        = ['npv','npv',50,0,50,'Events','Number of primary vertices',False]
 # arguments['njet']       = ['nJet','nJet',6,0,6,'Events','Number of jets',False]
