@@ -193,24 +193,33 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
 
 arguments = {}
 #                   = [var, bin, low, high, yaxis, xaxis, setLog]
-arguments['pfmet']      = ['pfmet','pfmet',100,200,3500,'Events/GeV','E_{T}^{miss} [GeV]',True]
-arguments['metphi']     = ['pfmetphi','pfmetphi',25,-5,5,'Events','E_{T}^{miss} #Phi [GeV]',True]
-arguments['dphipfmet']  = ['dphipfmet','dphipfmet',50,0,5,'Events','#Delta #Phi(jet,E_{T}^{miss})',False]
-arguments['calomet']    = ['calomet','calomet',50,0,2000,'Events/GeV','Calo E_{T}^{miss} [GeV]',True]
+arguments['met_pt']      = ['met_pt','met_pt',100,200,3500,'Events/GeV','E_{T}^{miss} [GeV]',True]
+arguments['met_phi']     = ['met_phi','met_phi',25,-5,5,'Events','E_{T}^{miss} #Phi [GeV]',True]
+arguments['CaloMET_pt']  = ['CaloMET_pt','CaloMET_pt',50,0,2000,'Events/GeV','Calo E_{T}^{miss} [GeV]',True]
+# arguments['dphipfmet']  = ['dphipfmet','dphipfmet',50,0,5,'Events','#Delta #Phi(jet,E_{T}^{miss})',False]
 
-arguments['jet1pt']     = ['jet1Pt','jet1Pt',25,10,1500,'Events/GeV','Leading Jet P_{T} [GeV]',True]
-arguments['jet1phi']    = ['jet1Phi','jet1Phi',25,-5,5,'Events','Leading Jet #phi',False]
-arguments['jet1eta']    = ['jet1eta','jet1Eta',25,-5,5,'Events','Leading Jet #eta',True]
+# Leading jet
+arguments['leadak4_pt']    = ['leadak4_pt','leadak4_pt',47,80,1000,'Events/GeV','Leading Jet P_{T} [GeV]',True]
+arguments['leadak4_phi']   = ['leadak4_phi','leadak4_phi',25,-5,5,'Events','Leading Jet #phi',False]
+arguments['leadak4_eta']   = ['leadak4_eta','leadak4_eta',25,-5,5,'Events','Leading Jet #eta',True]
 
-arguments['npv']        = ['npv','npv',50,0,50,'Events','Number of primary vertices',False]
-arguments['njet']       = ['nJet','nJet',6,0,6,'Events','Number of jets',False]
+# Trailing jet
+arguments['trailak4_pt']   = ['trailak4_pt','trailak4_pt',49,40,1000,'Events/GeV','Leading Jet P_{T} [GeV]',True]
+arguments['trailak4_phi']  = ['trailak4_phi','trailak4_phi',25,-5,5,'Events','Leading Jet #phi',False]
+arguments['trailak4_eta']  = ['trailak4_eta','trailak4_eta',25,-5,5,'Events','Leading Jet #eta',True]
 
+# arguments['npv']        = ['npv','npv',50,0,50,'Events','Number of primary vertices',False]
+# arguments['njet']       = ['nJet','nJet',6,0,6,'Events','Number of jets',False]
+
+# Dijet quantities
 arguments['mjj']       = ['mjj','mjj',5,0,5000,'Events/GeV','m_{jj}',True]
+arguments['detajj']    = ['detajj', 'detajj', 40, 0, 8, 'Events', '#Delta #eta_{jj}', True]
+arguments['dphijj']    = ['dphijj', 'dphijj', 30, 0, 1.5, 'Events', '#Delta #phi_{jj}', True]
 
 arguments['dphicalopf'] = ['dphicalopf','deltaPhi(calometphi,pfmetphi)',50,0,5,'Events','#Delta#phi_{calomet,pfmet}',False]
 
-#what will you plot
-variable_list = ['mjj']
+# What will you plot
+variable_list = ['mjj', 'leadak4_pt', 'leadak4_eta', 'trailak4_pt', 'trailak4_eta', 'detajj']
 
 processes     = []
 
