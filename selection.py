@@ -1,13 +1,20 @@
+import re
+
 def build_weights(channel, Type):
 
     common_weight = "*(1.0)"
+
+    vjets_regex = re.compile('(Zll|Wlv|Zvv).*')
 
     ##This is the section where you define the weights => one can make this auxilary, to build proper weights per channel
     if channel is 'signal':
         if Type is 'data':
             common_weight = "*(1.0)"
-        else:
+        elif re.match(vjets_regex, Type):
             common_weight = "*weight_gen*weight_prefire*weight_pileup*weight_theory*weight_trigger_met"
+        # Do not apply theory weight if not V+jets MC
+        else:
+            common_weight = "*weight_gen*weight_prefire*weight_pileup*weight_trigger_met"
 
     return common_weight
 
@@ -15,9 +22,7 @@ def build_selection(selection):
 
     selections = ['signal','Zmm','Wmn','gjets','Zee','Wen']
     
-    snippets = {        
-        'barrel' :['fabs(leadak4_eta)<2.4','signal'],        
-        }
+    snippets = {}
     
     selectionString = ''
     for cut in snippets:
