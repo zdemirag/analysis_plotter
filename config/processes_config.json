@@ -1,0 +1,266 @@
+{
+    "processes": [
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#F08080", 
+            "ordering": 1, 
+            "name": "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "Z#rightarrow ll"
+        }, 
+        {
+            "color": "#FFD700", 
+            "ordering": 3, 
+            "name": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8", 
+            "files": [
+                "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_merged.root"
+            ], 
+            "label": "Top"
+        }, 
+        {
+            "color": "#FFD700", 
+            "ordering": 3, 
+            "name": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8", 
+            "files": [
+                "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_merged.root"
+            ], 
+            "label": "Top"
+        }, 
+        {
+            "color": "#FFD700", 
+            "ordering": 3, 
+            "name": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8", 
+            "files": [
+                "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_merged.root"
+            ], 
+            "label": "Top"
+        }, 
+        {
+            "color": "#FC4E2A", 
+            "ordering": 2, 
+            "name": "VBFto2L_MLL-50_TuneCP5_13p6TeV_madgraph-pythia8", 
+            "files": [
+                "VBFto2L_MLL-50_TuneCP5_13p6TeV_madgraph-pythia8_merged.root"
+            ], 
+            "label": "EWK Z#rightarrow ll"
+        }, 
+        {
+            "color": "#08306B", 
+            "ordering": 4, 
+            "name": "VBFtoLNu_TuneCP5_13p6TeV_madgraph-pythia8", 
+            "files": [
+                "VBFtoLNu_TuneCP5_13p6TeV_madgraph-pythia8_merged.root"
+            ], 
+            "label": "EWK W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#E6E6FA", 
+            "ordering": 7, 
+            "name": "WtoLNu-2Jets_PTLNu-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 
+            "files": [
+                "WtoLNu-2Jets_PTLNu-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_merged.root"
+            ], 
+            "label": "QCD W#rightarrow l #nu"
+        }, 
+        {
+            "color": "#DAA520", 
+            "ordering": 5, 
+            "name": "WW_TuneCP5_13p6TeV_pythia8", 
+            "files": [
+                "WW_TuneCP5_13p6TeV_pythia8_merged.root"
+            ], 
+            "label": "Diboson"
+        }, 
+        {
+            "color": "#DAA520", 
+            "ordering": 5, 
+            "name": "WZ_TuneCP5_13p6TeV_pythia8", 
+            "files": [
+                "WZ_TuneCP5_13p6TeV_pythia8_merged.root"
+            ], 
+            "label": "Diboson"
+        }, 
+        {
+            "color": "#DAA520", 
+            "ordering": 5, 
+            "name": "ZZ_TuneCP5_13p6TeV_pythia8", 
+            "files": [
+                "ZZ_TuneCP5_13p6TeV_pythia8_merged.root"
+            ], 
+            "label": "Diboson"
+        }, 
+        {
+            "color": 1, 
+            "ordering": 9, 
+            "name": "Data", 
+            "files": [
+                "JetMETRun2022C_merged.root",
+                "JetMETRun2022D_merged.root"
+            ], 
+            "label": "Data"
+        }
+    ]
+}
